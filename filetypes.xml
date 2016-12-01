@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="index.erb" type="PLAIN_TEXT" />
       <mapping pattern="test" type="Ruby" />
+      <mapping ext="db" type="Ruby" />
     </extensionMap>
   </component>
 </application>
