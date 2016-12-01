@@ -1,0 +1,13 @@
+label for="nusername" Username:
+input#nusername type="text" name="nuser[username]" value="#{@nuser.username}"
+label for="npassword" <br><br>Password:
+input#npassword type="password" name="nuser[password]" value="#{@nuser.password}"
+<br><br>
+label for="nrole" Role:
+select#nrole name ="nuser[role]" value="#{@nuser.role}"
+  option[value="Student" selected=("selected" if @title=="Mr.")] "Student"
+  option[value="Instructor/TA" selected=("selected" if @title=="Mrs.")] "Instructor/TA"
+<br><br>
+
+
+input type="submit" value="Register"
