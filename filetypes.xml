@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="index.erb" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="Ruby" />
+    </extensionMap>
+  </component>
+</application>
