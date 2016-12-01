@@ -1,15 +1,13 @@
-<p>What's for dinner?</p>
-<form action='cast' method='post'>
-  <ul class='unstyled'>
-    <% Choices.each do |id, text| %>
-      <li>
-        <label class='radio'>
-          <input type='radio' name='vote' value='<%= id %>' id='vote_<%= id %>' />
-          <%= text %>
-        </label>
-      </li>
-    <% end %>
-  </ul>
-  <button type='submit' class='btn btn-primary'>Cast this vote!</button>
+<p>Please login with your credentials</p>
+
+<form action="/admin">
+  First name:<br>
+  <input type="text" name="username" value="admin">
+  <br>
+  Last name:<br>
+  <input type="text" name="password" value="admin">
+  <br><br>
+  <input type="submit" value="Submit">
 </form>
+
 
